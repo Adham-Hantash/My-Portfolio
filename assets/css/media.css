@@ -1,0 +1,76 @@
+@media (min-width: 0px) and (max-width:576px){
+
+    /* start nav  */
+
+    .navbar.position-fixed {
+        position: relative !important;
+      }
+
+    nav .hire{
+        width: 30% !important;
+    }
+    nav img{
+        width: 70%;
+    }
+
+    /* end nav  */
+
+
+    /* start header  */
+    header{
+        padding-top: 10%;
+    }
+
+    .header_img img{
+        width: 100%;
+    }
+
+    .header_content{
+        text-align: center;
+    }
+
+    header h1{
+        margin-top: 3px;
+        font-size: 40px;
+    }
+    /* end header  */
+
+    /* start about  */
+
+    .about_section{
+        text-align: center;
+    }
+
+    .about_section .completeProjects{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about_section .aboutImg img{
+        width: 100%;
+    }
+
+    /* end about  */
+
+    /* start footer  */
+    footer{
+        text-align: center;
+    }
+
+    footer .footerSocials{
+       flex-direction: row !important;
+       justify-content: center;
+    }
+
+    /* end footer  */
+
+    /* ****************************** end page ****************************** */
+
+
+    /* ****************************** thank you page ****************************** */
+
+    .thanksImg img.w-50{
+        width: 90% !important;
+        margin-top: 15%;
+    }
+ }
