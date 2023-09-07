@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+h2{
+  color: #15295f;
+
+}
+
+
 .container{
     width: 80%;
 }
@@ -19,12 +25,29 @@ span{
     color: #FF6B00;
     }
 
+.black-text {
+    color: black;
+  }
+    
+.white-text {
+  color: white;
+}
+
+.whiteless-text {
+  color: rgba(234, 234, 234, 0.8);
+}
+
+.purple-text{
+  color: #15295f;
+}
+    
 /* start navbar  */
 
 nav{
     font-size: 18px;
     height: 10%;
    width: 100%;
+   z-index: 99;
 }
 
 nav .nav-item .nav-link.active{
@@ -76,19 +99,53 @@ nav span{
     transform: rotate(360deg);
   }
 
+  .navbar #toggleDark{
+    width: 100px !important;
+    margin-left: 35%;
+    color: #000;
+    cursor: pointer;
+  }
 /* end navbar  */
 
 /* start header  */
 
 header{
 height: 100%;
-background-color: #fdf8f7;
 padding-top: 5%;
 }
 
 header .header_content {
     height: 100%;
 }
+
+
+
+header .header_img{
+  position: relative;
+  margin-top: 10%;
+}
+
+header .adhamImg{
+  position: absolute;
+  left: 10%;
+  bottom: 2.2%;
+  transition: transform 0.5s;
+}
+
+header .bolbImg{
+ width: 100%;
+ transition: transform 0.5s;
+}
+
+header .header_img:hover .adhamImg{
+transform: translatey(-50px);
+transition: 1s;
+}
+
+header .header_img:hover .bolbImg{
+  transform: translatex(-50px);
+  transition: 1s;
+  }
 
 header .social-media-icons i {
     margin-left: 10px;
@@ -135,8 +192,8 @@ header  .social-media-icons .fa-instagram {
   }
 
   header .social-media-icons .fa-github {
-    color: black !important;
-    border: 1px solid black !important;
+    /* color: black !important; */
+    border: 1px solid ;
   }
   
   .social-media-icons .fa-github:hover {
@@ -240,7 +297,6 @@ header h3{
 .about_section h2{
     font-size: 35px;
     font-weight: 700;
-    color: #15295f;
 }
 
 .about_section .about_title p{
@@ -276,7 +332,6 @@ header h3{
 .skills h2{
     font-size: 35px;
     font-weight: 700;
-    color: #15295f;
 }
 
 .skills button{
@@ -291,14 +346,10 @@ header h3{
 
 
 /* start projects  */
-.projects{
-    background-image: url(../imgs/WNaocO.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .projects .website img{
     width: 70%;
+    transition: transform 0.5s;
 }
 
 .projects .website:hover img{
@@ -317,7 +368,6 @@ transition-duration: 0.5s;
 }
 
 .projects h2{
-    color: #15295f;
     font-size: 40px;
     font-weight: 700;
 }
@@ -332,9 +382,9 @@ transition-duration: 0.5s;
 
 /* start contact  */
 
-.contact_section{
+/* .contact_section{
 background-color: #1f1d2b;
-}
+} */
 
 .contact_section span{
     font-size: 18px;
@@ -342,8 +392,7 @@ background-color: #1f1d2b;
 }
 
 .contact_section h2{
-    color: #fff;
-    font-size: 40px;
+  font-size: 40px;
     font-weight: 700;
 }
 /* *********************************************************************************** */
