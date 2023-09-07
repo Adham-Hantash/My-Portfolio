@@ -15,6 +15,8 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- AOS CSS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     
@@ -52,7 +54,7 @@
             <i class="fa-solid fa-sun brightness carousel" id="toggleDark"></i>
           
           
-          <a href="#" class="hire btn button rounded-pill p-2">
+          <a href="#" class="rightBtn btn button rounded-pill p-2">
             <span>Hire Me</span>
             <i class="fa-solid fa-paper-plane rounded-circle p-2 bg-white text-dark "></i>
           </a>
@@ -60,7 +62,7 @@
       </div>
     </nav>
 
-    <header>
+    <header data-aos="fade-in" data-aos-duration="200" data-aos-once="true">
       <div class="container">
           <div class="row">  
 
@@ -94,33 +96,33 @@
 
 
         <!-- start about me  -->
-        <section class="about_section container mt-5" id="about">
+        <section class="about_section container mt-5" id="about" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <div class="row">
             <div class="col-lg-6 mt-5">
               <div>
-                <div class="about_title d-flex">
+                <div class="about_title d-flex" data-aos="fade-upp" data-aos-duration="800" data-aos-once="true">
                   <img src="./assets/imgs/orangeDot.png" class="orangeDot me-2 mt-1" alt="orangeDot">
                   <p>About Me</p>
                 </div>
-                <h2 class="purple-text">I Can Make You The Website You Want</h2>
+                <h2 class="purple-text" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">I Can Make You The Website You Want</h2>
                 <!-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis. Nam libero tempore,
                    cum soluta nobis est eligendi optio cumque nihil impedit.</p> -->
-                   <p id="paragraph" class="black-text">Welcome to my portfolio! I'm a full-stack web developer with a passion for building web applications that drive the success of businesses. Take a look at some of my projects in the Projects section to see my work in action.
+                   <p data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" id="paragraph" class="black-text">Welcome to my portfolio! I'm a full-stack web developer with a passion for building web applications that drive the success of businesses. Take a look at some of my projects in the Projects section to see my work in action.
                     I also enjoy sharing my knowledge and experiences with the web development community. You can find valuable content related to web development and programming on my Linkedin profile. Feel free to connect with me or follow my profile to stay updated on the latest insights and industry trends.    
                     I'm always seeking new opportunities to contribute, learn, and grow. If you have a job opportunity that aligns with my skills and experience, don't hesitate to reach out. I'm excited to explore how I can make a positive impact.</p>
               </div>
-              <div class="completeProjects d-flex">
+              <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" class="completeProjects d-flex">
                   <img src="./assets/imgs/aboutIconOne.png" alt="">
                   <div class="ms-3">
                     <span>10+</span>
                     <h3 class="purple-text">Complete Project</h3>
                   </div>
               </div>
-              <a href="#" class="DCV2 btn p-2 px-4 mt-3">View Projects</a>
+              <a href="#" data-aos="fade-up" data-aos-duration="2500" data-aos-once="true" class="DCV2 btn p-2 px-4 mt-3">View Projects</a>
             </div>    
 
             <div class="aboutImg col-lg-6">
-              <img src="./assets/imgs/profile-pic (2).png" alt="">
+              <img src="./assets/imgs/adham2.png" alt="">
             </div>
 
           </div>
@@ -130,9 +132,50 @@
         <!-- end about me  -->
 
 
+<section class="education mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Education</h2>
+          <div>
+            <div class="edu border rounded-5 w-100 p-4 mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+              <img src="./assets/imgs/eduImgWhite.ae822784.svg" alt="" class="border rounded-circle p-2">
+              <span class="ms-2">2019-2024</span>
+              <h3>Computer Systems Engineering</h3>
+              <p>Palestine Technical University - Kadoori</p>
+            </div>
+
+            <div class="edu border rounded-5 w-100 p-4 mb-3" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
+              <img src="./assets/imgs/eduImgWhite.ae822784.svg" alt="" class="border rounded-circle p-2">
+              <span class="ms-2">2022-2023</span>
+              <h3>Full Stack Web Development</h3>
+              <p>Knowledge Academy</p>
+            </div>
+
+            <div class="edu border rounded-5 w-100 p-4" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+              <img src="./assets/imgs/eduImgWhite.ae822784.svg" alt="" class="border rounded-circle p-2">
+              <span class="ms-2">2021-2022</span>
+              <h3>Customer Service Reprisentative/Technical Support</h3>
+              <p>Palestine Telecomunications Company</p>
+            </div>
+          </div>
+          <div class="col-lg-6"></div>
+          <div class="col-lg-6"></div>
+
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="./assets/imgs/eduOrange.c61dcfc3.svg" alt="" class="w-75">
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+
 <!-- start skills  -->
 
-<section class="skills text-center" id="skills">
+<section class="skills text-center" id="skills" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
   <div class="section_title pt-5 text-center">
     <img src="./assets/imgs/orangeDot.png" class="orangeDot me-2 mb-1" alt="orangeDot">
     <span>Skills And Experience</span>
@@ -142,11 +185,11 @@
   <div class="row">
 
     <div class="col-lg-6 skillimg">
-      <img src="./assets/imgs/Code typing-pana.png" class="w-100 mt-5" alt="">
+      <img src="./assets/imgs/Code typing-pana.png" class="w-100 mt-5" alt="" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
 
     </div>
-    <div class="col-lg-6">
-      <div>
+    <div class="col-lg-6" >
+      <div data-aos="fade-up" data-aos-duration="100" data-aos-once="true">
         <img src="./assets/imgs/frontend.png" class="w-25 m-auto" alt="frontend">
         <h3 class="purple-text">Front-end Development</h3>
         <button type="button" class="btn btn-secondary">HTML</button>
@@ -159,7 +202,7 @@
       </div>
 
 
-  <div class="backend mt-5">
+  <div class="backend mt-5" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
     <img src="./assets/imgs/backend.png" class="w-25" alt="backend">
     <h3 class="purple-text">Back-end Development</h3>
     <button type="button" class="btn btn-secondary">SQL</button>
@@ -170,7 +213,7 @@
     <button type="button" class="btn btn-secondary mt-2">Postman</button>
   </div>
 
-  <div class="otherSkills">
+  <div class="otherSkills" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
     <img src="./assets/imgs/skills.png" class="mt-5" alt="skills">
     <h3 class="purple-text">Other Skills</h3>
     <button type="button" class="btn btn-secondary">Git</button>
@@ -191,7 +234,7 @@
 
 <!-- start projects  -->
 
-<section class="projects mt-3" id="projects">
+<section class="projects mt-3" id="projects" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
   <div class="container text-center">
 
     <div class="section_title pt-5">
@@ -202,7 +245,7 @@
     </div>
 
     <div class="row">
-        <div class="website col-lg-4 align-items-center mt-3 mb-5">
+        <div class="website col-lg-4 align-items-center mt-3 mb-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
           <div class="imgBg">
             <img src="./assets/imgs/project1.png" alt="">
           </div>
@@ -215,7 +258,7 @@
         </div>
 
 
-    <div class="website col-lg-4 align-items-center mt-3">
+    <div class="website col-lg-4 align-items-center mt-3" data-aos="zoom-in" data-aos-duration="4000" data-aos-once="true">
       <div class="imgBg">
         <img src="./assets/imgs/project3.png" alt="">
       </div>
@@ -229,7 +272,7 @@
 
 </div>
 
-<div class="website col-lg-4 align-items-center mt-3">
+<div class="website col-lg-4 align-items-center mt-3" data-aos="zoom-in" data-aos-duration="8000" data-aos-once="true">
   <div class="imgBg">
     <img src="./assets/imgs/project4.png" alt="">
   </div>
@@ -245,9 +288,13 @@
 
     </div>
 
-    <div class="veiwMore d-flex">
-      <a href="projects.html" class="btn ms-auto">View More</a>
-    </div>
+<div class="veiwMore d-flex">
+  <a href="projects.html" class="rightBtn btn button rounded-pill p-3 ms-auto">
+    <span class="text-white">View More</span>
+    <i class="fa-solid fa-arrow-right rounded-circle p-2 bg-white text-dark"></i>
+  </a>
+</div>
+
 
   </div>
 </section>
@@ -255,7 +302,7 @@
 
 
 <!-- start contact  -->
-<section class="contact_section" id="contact">
+<section class="contact_section" id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
   <div class="container">
     
     <div class="section_title pt-5 text-center">
@@ -263,28 +310,38 @@
       <span>Contact</span>
       <h2 class="purple-text">Let's Talk!</h2>
     </div>
+
     <div class="row">
 
-      <div class="col-lg-6">
-        <form action="https://formsubmit.co/adhamabuhantash20@gmail.com" method="POST">      
-          <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
-          <input name="email" type="email" class="feedback-input" placeholder="Email" required />
-          <input name="subject" type="text" class="feedback-input"  placeholder="Subject" required />
-          <textarea name="message" class="feedback-input" name="message" placeholder="Message" required></textarea>
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://adhamabuhantash.netlify.app//pages/thankYou.html">
-          <input type="hidden" name="_template" value="table">
-          <input type="submit" value="Send!"/>
-        </form>
-      </div>
+        <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+          <form action="https://formsubmit.co/adhamabuhantash20@gmail.com" method="POST">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
+            <input name="email" type="email" class="feedback-input" placeholder="Email" required />
+            <input name="subject" type="text" class="feedback-input"  placeholder="Subject" required />
+            <textarea name="message" class="feedback-input" name="message" placeholder="Message" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://adhamabuhantash.netlify.app//pages/thankYou.html">
+            <input type="hidden" name="_template" value="table">
+            <input type="submit" value="Send!"/>
+          </form>
+        </div>
+  
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+          <img src="./assets/imgs/contactsOrange.75754594.svg" alt="" class="w-75">
+        </div>
 
-      <div class="col-lg-6">
-        <img src="./assets/imgs/avatar.png" alt="">
-      </div>  
+        <div class="col-lg-4" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
+          <img src="./assets/imgs/avatar.png" alt="">
+        </div>  
+
+      
 
 
+  
     </div>
+
     
+   
   </div>
 
 </section>
@@ -315,7 +372,15 @@
 </footer>
 
 <!-- end footer  -->
+
+  <!-- Bootstrap JS  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom JS  -->
     <script src="./script.js" defer></script>
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
