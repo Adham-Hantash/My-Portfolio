@@ -8,7 +8,19 @@
 
     nav .hire{
         width: 30% !important;
+        margin: auto;
     }
+
+    nav .toggleDark{
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+
+    nav #toggleDark{
+        display: flex;
+        justify-content: center;
+    }
+
     nav img{
         width: 70%;
     }
@@ -18,12 +30,18 @@
 
     /* start header  */
     header{
-        padding-top: 10%;
+        padding-top: 20%;
     }
 
-    .header_img img{
+    .header_img{
         width: 100%;
     }
+
+    header .header_img .adhamImg{
+        width: 85%;
+        margin-left: -5%;
+    }
+
 
     .header_content{
         text-align: center;
@@ -51,6 +69,33 @@
     }
 
     /* end about  */
+
+
+    /* start projects  */
+
+    .projects .veiwMore{
+        margin: auto;
+        width: 36%;
+    }
+
+    .projects .website3{
+        padding-top: 10%;
+    }
+    /* end projects  */
+
+
+    /* start contact  */
+
+    .contact_section .contactsOrange{
+        display: none;
+    }
+
+    .contact_section .sendButton{
+        display: flex;
+        justify-content: center;
+    }
+    /* end contact  */
+
 
     /* start footer  */
     footer{

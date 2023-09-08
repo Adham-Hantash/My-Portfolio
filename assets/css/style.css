@@ -93,7 +93,11 @@ nav span{
     background-color: #ff724c;
   }
   
-  .rightBtn:hover i {
+  .rightBtn1{
+    width: 100% !important;
+  }
+
+  .rightBtn1:hover i {
     color: #fff !important;
     background-color: black !important;
     transform: rotate(360deg);
@@ -117,8 +121,6 @@ padding-top: 5%;
 header .header_content {
     height: 100%;
 }
-
-
 
 header .header_img{
   position: relative;
@@ -323,10 +325,16 @@ header h3{
 
 /* start education  */
 
+.education h2{
+  color: #FF6B00;
+  font-weight: 700;
+  font-size: 50px;
+}
+
 .edu{
   background-color: #cd694b;
-    transition: 0.5s;
-  border-color: transparent !important;
+  border: 2px solid transparent !important;
+  transition: all 0.5s;
 }
 
 .edu:hover{
@@ -347,6 +355,7 @@ header h3{
 
 .edu span{
   font-weight: 700;
+  color: #fff;
 }
 
 .edu img{

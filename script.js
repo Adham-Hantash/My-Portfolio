@@ -2,8 +2,7 @@ const toggle = document.getElementById('toggleDark');
 const paragraph = document.getElementById('paragraph');
 const gitHub = document.getElementById('gitHub');
 const h1Element = document.querySelector("h1");
-// const h2Element = document.querySelectorAll("h2");
-// const h3Element = document.querySelectorAll("h3");
+const nav = document.getElementById('nav')
 const body = document.querySelector('body');
 
 toggle.addEventListener('click', function(){
@@ -18,7 +17,6 @@ toggle.addEventListener('click', function(){
 
         paragraph.classList.remove("whiteless-text");
         paragraph.classList.add("black-text"); 
-
 
         h1Element.classList.remove("white-text");
         h1Element.classList.add("purple-text");
@@ -46,7 +44,6 @@ toggle.addEventListener('click', function(){
 
         paragraph.classList.add("whiteless-text"); 
         paragraph.classList.remove("black-text");
-
         
         gitHub.classList.add('white-text');
         gitHub.classList.remove("black-text"); 
